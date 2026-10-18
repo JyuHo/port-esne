@@ -1,7 +1,7 @@
 # Licences des jeux
 
 Ce dépôt ne contient aucun jeu: seulement le catalogue. Chaque jeu est téléchargé par ES-NE depuis sa source
-(releases de [PortMaster](https://github.com/PortsMaster/PortMaster-New) ou [Flathub](https://flathub.org)),
+(releases de [PortMaster](https://github.com/PortsMaster/PortMaster-New), [Flathub](https://flathub.org) ou site de l'auteur),
 avec les fichiers de licence fournis par cette source. Licences relevées dans les archives PortMaster
 (fichiers `LICENSE`, `COPYING`...) ou sur la page du projet.
 
@@ -67,3 +67,4 @@ avec les fichiers de licence fournis par cette source. Licences relevées dans l
 | [Luanti](https://flathub.org/apps/org.luanti.luanti) | Jeux libres | Flathub `org.luanti.luanti` | LGPL-2.1-or-later (moteur) |  |
 | [Veloren](https://flathub.org/apps/net.veloren.veloren) | Jeux libres | Flathub `net.veloren.veloren` | GPL-3.0 |  |
 | [Cataclysm: Dark Days Ahead](https://flathub.org/apps/org.cataclysmdda.CataclysmDDA) | Jeux libres | Flathub `org.cataclysmdda.CataclysmDDA` | CC BY-SA 3.0 |  |
+| [Word Breaker](https://gitlab.com/llamazing/word_breaker) | Jeux libres | [auteur](https://gitlab.com/llamazing/word_breaker/-/raw/d3a333d76cb54d5c4e4b86257b166d06595b0cc7/word_breaker.solarus) (moteur Solarus) | GPL-3.0, polices SIL OFL, musiques Soundimage |  |

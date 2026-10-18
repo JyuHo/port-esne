@@ -42,6 +42,12 @@ def fp(app_id):
     return {"type": "flatpak", "id": app_id}, None, f"https://flathub.org/apps/{app_id}"
 
 
+def sol(url, sha256, size, version, *, file, dir, homepage):
+    """Quête Solarus téléchargée chez son auteur, jouée par le moteur Solarus du système ou celui de Flathub."""
+    return ({"type": "solarus", "url": url, "sha256": sha256, "size": size, "version": version, "file": file, "dir": dir},
+            None, homepage)
+
+
 PORTS = [
     # --- PC (DOS)
     ("digger", "Digger", "pc-dos", "Arcade", "Creuse des galeries et ramasse les émeraudes (Windmill Software, 1983).",
@@ -157,4 +163,10 @@ PORTS = [
     ("veloren", "Veloren", "libres", "RPG", "RPG en monde ouvert multijoueur en voxels." + KM, "GPL-3.0", None, fp("net.veloren.veloren")),
     ("cataclysm-dda", "Cataclysm: Dark Days Ahead", "libres", "Rogue-like", "Survie post-apocalyptique au tour par tour." + KM, "CC BY-SA 3.0", None,
      fp("org.cataclysmdda.CataclysmDDA")),
+    ("wordbreaker", "Word Breaker", "libres", "Réflexion",
+     "Trouve le mot de cinq lettres en six essais, façon Mastermind (Llamazing, moteur Solarus)." + KM,
+     "GPL-3.0, polices SIL OFL, musiques Soundimage", None,
+     sol("https://gitlab.com/llamazing/word_breaker/-/raw/d3a333d76cb54d5c4e4b86257b166d06595b0cc7/word_breaker.solarus",
+         "f022d1eb5970b5fd7e272b0d363c63e6b218da928bb305205ba36795b41a771f", 60533511, "0.2.1",
+         file="word_breaker.solarus", dir="wordbreaker", homepage="https://gitlab.com/llamazing/word_breaker")),
 ]

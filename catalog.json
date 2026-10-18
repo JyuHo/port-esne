@@ -938,6 +938,24 @@
     "type": "flatpak",
     "id": "org.cataclysmdda.CataclysmDDA"
    }
+  },
+  {
+   "id": "wordbreaker",
+   "title": "Word Breaker",
+   "category": "libres",
+   "genre": "Réflexion",
+   "description": "Trouve le mot de cinq lettres en six essais, façon Mastermind (Llamazing, moteur Solarus). Se joue au clavier et à la souris.",
+   "license": "GPL-3.0, polices SIL OFL, musiques Soundimage",
+   "homepage": "https://gitlab.com/llamazing/word_breaker",
+   "source": {
+    "type": "solarus",
+    "url": "https://gitlab.com/llamazing/word_breaker/-/raw/d3a333d76cb54d5c4e4b86257b166d06595b0cc7/word_breaker.solarus",
+    "sha256": "f022d1eb5970b5fd7e272b0d363c63e6b218da928bb305205ba36795b41a771f",
+    "size": 60533511,
+    "version": "0.2.1",
+    "file": "word_breaker.solarus",
+    "dir": "wordbreaker"
+   }
   }
  ]
 }

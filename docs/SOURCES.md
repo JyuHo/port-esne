@@ -64,3 +64,14 @@ douteux: SDLPoP (données de Prince of Persia © Jordan Mechner / Ubisoft redist
 Reburninated (reprise par un fan d'un jeu © Videlectrix). Gardés parce que les ayants droit ont rendu les données
 gratuites: OpenTyrian (Tyrian 2.1), OpenOMF (One Must Fall 2097), OpenRA (Command & Conquer, Red Alert), Abuse
 (domaine public). Les listes « Ajouts » ci-dessus sont donc en partie caduques.
+
+## Jeux Solarus (18 octobre 2026)
+
+Dépôts de [gitlab.com/solarus-games](https://gitlab.com/solarus-games) et quêtes listées par le projet Solarus:
+
+- Ajouté: Word Breaker (Llamazing, GPL-3.0, polices SIL OFL, musiques Soundimage), fichier `.solarus` publié dans
+  son dépôt GitLab.
+- Écartés: les jeux Zelda de fans (Mystery of Solarus DX, XD, Return of the Hylian SE, Oni-Link Begins SE, Mercuris'
+  Chest, Tunics, The Only One) qui reprennent l'univers et des graphismes de Nintendo; Yarntown (hommage à Bloodborne,
+  univers © Sony/FromSoftware, graphismes « tous droits réservés »); Children of Solarus (libre, mais encore en
+  cours, sans version publiée); Hallow's Eve (itch.io seulement), Red Rain et Tombwater (commerciaux).

@@ -41,13 +41,14 @@ def licenses_md(catalog: dict) -> str:
     names = {c["id"]: c["name"] for c in catalog["categories"]}
     lines = ["# Licences des jeux", "",
              "Ce dépôt ne contient aucun jeu: seulement le catalogue. Chaque jeu est téléchargé par ES-NE depuis sa source",
-             "(releases de [PortMaster](https://github.com/PortsMaster/PortMaster-New) ou [Flathub](https://flathub.org)),",
+             "(releases de [PortMaster](https://github.com/PortsMaster/PortMaster-New), [Flathub](https://flathub.org) ou site de l'auteur),",
              "avec les fichiers de licence fournis par cette source. Licences relevées dans les archives PortMaster",
              "(fichiers `LICENSE`, `COPYING`...) ou sur la page du projet.", "",
              "| Jeu | Catégorie | Source | Licence | À fournir |", "|---|---|---|---|---|"]
     for p in catalog["ports"]:
         src = p["source"]
-        where = f"PortMaster `{src['zip']}`" if src["type"] == "portmaster" else f"Flathub `{src['id']}`"
+        where = {"portmaster": lambda: f"PortMaster `{src['zip']}`", "flatpak": lambda: f"Flathub `{src['id']}`",
+                 "solarus": lambda: f"[auteur]({src['url']}) (moteur Solarus)"}[src["type"]]()
         lines.append(f"| [{p['title']}]({p['homepage']}) | {names[p['category']]} | {where} | {p['license']} | {p.get('requires', '')} |")
     return "\n".join(lines) + "\n"
 

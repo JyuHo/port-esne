@@ -29,6 +29,8 @@ original, une ROM ou un dump, rien dont la redistribution est douteuse, pas de d
   `.gptk` du port.
 - **Flathub**: application installée pour l'utilisateur (`flatpak install --user flathub ...`) et lancée par
   `flatpak run`.
+- **Solarus**: quête `.solarus` téléchargée chez son auteur (somme sha256 vérifiée) et jouée par le moteur
+  [Solarus](https://www.solarus-games.org) du système, ou à défaut par celui de Flathub.
 
 ## Format de `catalog.json`
 
@@ -53,7 +55,8 @@ original, une ROM ou un dump, rien dont la redistribution est douteuse, pas de d
 ```
 
 - `requires` (facultatif, inutilisé par la règle actuelle): ce que le joueur devrait fournir; ES-NE l'affiche dans la description.
-- `source.type`: `portmaster` (`zip`, `dir`) ou `flatpak` (`id`).
+- `source.type`: `portmaster` (`zip`, `dir`), `flatpak` (`id`) ou `solarus` (`url`, `sha256`, `size`, `version`,
+  `file`, `dir`).
 - `launch` (PortMaster seulement): `binary` reçoit le suffixe de l'architecture (`opentyrian.x86_64`), `args`,
   `cwd` (sous-dossier de lancement), `env` (`$GAMEDIR` = dossier du jeu), `gptk` (correspondance manette -> clavier).
 - Un champ inconnu est ignoré par ES-NE; un changement incompatible augmente `schema`.
