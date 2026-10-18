@@ -1,0 +1,705 @@
+{
+ "schema": 1,
+ "updated": "2026-10-18",
+ "categories": [
+  {
+   "id": "pc-dos",
+   "name": "PC (DOS)"
+  },
+  {
+   "id": "amiga",
+   "name": "Amiga"
+  },
+  {
+   "id": "macintosh",
+   "name": "Macintosh"
+  },
+  {
+   "id": "windows",
+   "name": "Windows"
+  },
+  {
+   "id": "unix",
+   "name": "Unix"
+  },
+  {
+   "id": "megadrive",
+   "name": "Mega Drive"
+  },
+  {
+   "id": "libres",
+   "name": "Jeux libres"
+  }
+ ],
+ "ports": [
+  {
+   "id": "digger",
+   "title": "Digger",
+   "category": "pc-dos",
+   "genre": "Arcade",
+   "description": "Creuse des galeries et ramasse les émeraudes (Windmill Software, 1983).",
+   "license": "GPL-2.0 (Digger Remastered)",
+   "homepage": "https://portmaster.games/detail.html?name=digger",
+   "source": {
+    "type": "portmaster",
+    "zip": "digger.zip",
+    "dir": "digger"
+   },
+   "launch": {
+    "binary": "digger",
+    "gptk": "digger.gptk"
+   }
+  },
+  {
+   "id": "opentyrian",
+   "title": "OpenTyrian",
+   "category": "pc-dos",
+   "genre": "Shoot'em up",
+   "description": "Shoot'em up vertical d'Epic MegaGames (1995), version 2.1 devenue gratuite.",
+   "license": "GPL-2.0 (moteur), données Tyrian 2.1 gratuites (Epic MegaGames)",
+   "homepage": "https://portmaster.games/detail.html?name=opentyrian",
+   "source": {
+    "type": "portmaster",
+    "zip": "opentyrian.zip",
+    "dir": "opentyrian"
+   },
+   "launch": {
+    "binary": "opentyrian",
+    "args": [
+     "--data=data"
+    ],
+    "gptk": "opentyrian.gptk"
+   }
+  },
+  {
+   "id": "sdlpop",
+   "title": "Prince of Persia (SDLPoP)",
+   "category": "pc-dos",
+   "genre": "Plates-formes",
+   "description": "Le premier Prince of Persia (1990) sur un moteur libre.",
+   "license": "GPL-3.0 (moteur SDLPoP); données du jeu © Jordan Mechner / Ubisoft, fournies par PortMaster",
+   "homepage": "https://portmaster.games/detail.html?name=sdlpop",
+   "source": {
+    "type": "portmaster",
+    "zip": "sdlpop.zip",
+    "dir": "sdlpop"
+   },
+   "launch": {
+    "binary": "prince",
+    "gptk": "prince.gptk"
+   }
+  },
+  {
+   "id": "openomf",
+   "title": "One Must Fall 2097 (OpenOMF)",
+   "category": "pc-dos",
+   "genre": "Combat",
+   "description": "Combat de robots géants (Diversions Entertainment, 1994), gratuit depuis 1999.",
+   "license": "MIT (moteur OpenOMF), données gratuites (Epic MegaGames)",
+   "homepage": "https://portmaster.games/detail.html?name=openomf",
+   "source": {
+    "type": "portmaster",
+    "zip": "openomf.zip",
+    "dir": "openomf"
+   },
+   "launch": {
+    "binary": "openomf",
+    "gptk": "openomf.gptk",
+    "env": {
+     "OPENOMF_RESOURCE_DIR": "$GAMEDIR/gamedata",
+     "OPENOMF_PLUGIN_DIR": "$GAMEDIR/plugins"
+    }
+   }
+  },
+  {
+   "id": "openttd",
+   "title": "OpenTTD",
+   "category": "pc-dos",
+   "genre": "Gestion",
+   "description": "Gestion de compagnie de transport, d'après Transport Tycoon Deluxe (1995).",
+   "license": "GPL-2.0, graphismes, sons et musiques libres (OpenGFX, OpenSFX, OpenMSX)",
+   "homepage": "https://flathub.org/apps/org.openttd.OpenTTD",
+   "source": {
+    "type": "flatpak",
+    "id": "org.openttd.OpenTTD"
+   }
+  },
+  {
+   "id": "abuse",
+   "title": "Abuse",
+   "category": "pc-dos",
+   "genre": "Action",
+   "description": "Run and gun de Crack dot Com (1995), code et données rendus publics.",
+   "license": "domaine public et GPL-2.0",
+   "homepage": "https://flathub.org/apps/com.github.Xenoveritas.abuse",
+   "source": {
+    "type": "flatpak",
+    "id": "com.github.Xenoveritas.abuse"
+   }
+  },
+  {
+   "id": "fheroes2",
+   "title": "Heroes of Might and Magic II (fheroes2)",
+   "category": "pc-dos",
+   "genre": "Stratégie",
+   "description": "Moteur libre de Heroes of Might and Magic II (1996).",
+   "license": "GPL-2.0 (moteur)",
+   "homepage": "https://flathub.org/apps/io.github.ihhub.Fheroes2",
+   "source": {
+    "type": "flatpak",
+    "id": "io.github.ihhub.Fheroes2"
+   },
+   "requires": "fichiers du jeu original (GOG ou CD)"
+  },
+  {
+   "id": "rigelengine",
+   "title": "Duke Nukem II (RigelEngine)",
+   "category": "pc-dos",
+   "genre": "Plates-formes",
+   "description": "Moteur libre de Duke Nukem II (Apogee, 1993).",
+   "license": "GPL-2.0 (moteur)",
+   "homepage": "https://flathub.org/apps/io.github.lethal_guitar.RigelEngine",
+   "source": {
+    "type": "flatpak",
+    "id": "io.github.lethal_guitar.RigelEngine"
+   },
+   "requires": "fichiers du jeu complet (GOG ou Steam)"
+  },
+  {
+   "id": "dxx-rebirth",
+   "title": "Descent (DXX-Rebirth)",
+   "category": "pc-dos",
+   "genre": "Action",
+   "description": "Moteur libre de Descent et Descent 2 (Parallax, 1995).",
+   "license": "GPL-3.0 et licence Parallax (moteur)",
+   "homepage": "https://flathub.org/apps/io.github.dxx_rebirth.DXX-Rebirth",
+   "source": {
+    "type": "flatpak",
+    "id": "io.github.dxx_rebirth.DXX-Rebirth"
+   },
+   "requires": "fichiers du jeu complet (GOG ou Steam)"
+  },
+  {
+   "id": "theforceengine",
+   "title": "Star Wars: Dark Forces (The Force Engine)",
+   "category": "pc-dos",
+   "genre": "FPS",
+   "description": "Moteur libre de Dark Forces (LucasArts, 1995).",
+   "license": "GPL-2.0 (moteur)",
+   "homepage": "https://flathub.org/apps/io.github.theforceengine.tfe",
+   "source": {
+    "type": "flatpak",
+    "id": "io.github.theforceengine.tfe"
+   },
+   "requires": "fichiers du jeu complet (GOG ou Steam)"
+  },
+  {
+   "id": "gzdoom",
+   "title": "Doom (GZDoom)",
+   "category": "pc-dos",
+   "genre": "FPS",
+   "description": "Moteur de Doom, Doom II, Heretic et Hexen.",
+   "license": "GPL-3.0 (moteur)",
+   "homepage": "https://flathub.org/apps/org.zdoom.GZDoom",
+   "source": {
+    "type": "flatpak",
+    "id": "org.zdoom.GZDoom"
+   },
+   "requires": "fichiers WAD du jeu (DOOM.WAD, DOOM2.WAD...) ou un jeu libre comme Freedoom"
+  },
+  {
+   "id": "openggs",
+   "title": "Open Great Giana Sisters",
+   "category": "amiga",
+   "genre": "Plates-formes",
+   "description": "Remake libre de The Great Giana Sisters (1987).",
+   "license": "GPL-2.0",
+   "homepage": "https://portmaster.games/detail.html?name=openggs",
+   "source": {
+    "type": "portmaster",
+    "zip": "openggs.zip",
+    "dir": "openggs"
+   },
+   "launch": {
+    "binary": "openggs",
+    "gptk": "openggs.gptk"
+   }
+  },
+  {
+   "id": "supermethanebros",
+   "title": "Super Methane Brothers",
+   "category": "amiga",
+   "genre": "Plates-formes",
+   "description": "Plates-formes à la Bubble Bobble, sorti sur Amiga en 1993.",
+   "license": "GPL-2.0",
+   "homepage": "https://portmaster.games/detail.html?name=supermethanebros",
+   "source": {
+    "type": "portmaster",
+    "zip": "supermethanebros.zip",
+    "dir": "supermethanebros"
+   },
+   "launch": {
+    "binary": "methane",
+    "gptk": "methane.gptk"
+   }
+  },
+  {
+   "id": "mirrormagic",
+   "title": "Mirror Magic",
+   "category": "amiga",
+   "genre": "Réflexion",
+   "description": "Miroirs et rayons lasers, d'après le jeu Amiga de 1989.",
+   "license": "GPL-2.0",
+   "homepage": "https://portmaster.games/detail.html?name=mirrormagic",
+   "source": {
+    "type": "portmaster",
+    "zip": "mirrormagic.zip",
+    "dir": "mirrormagic"
+   },
+   "launch": {
+    "binary": "mirrormagic",
+    "gptk": "mirrormagic.gptk"
+   }
+  },
+  {
+   "id": "cromagrally",
+   "title": "Cro-Mag Rally",
+   "category": "macintosh",
+   "genre": "Course",
+   "description": "Course de karts à l'âge de pierre (Pangea Software, 2000).",
+   "license": "CC BY-NC-SA 4.0",
+   "homepage": "https://portmaster.games/detail.html?name=cromagrally",
+   "source": {
+    "type": "portmaster",
+    "zip": "cromagrally.zip",
+    "dir": "cromagrally"
+   },
+   "launch": {
+    "binary": "CroMagRally"
+   }
+  },
+  {
+   "id": "julius",
+   "title": "Caesar III (Julius)",
+   "category": "windows",
+   "genre": "Gestion",
+   "description": "Moteur libre de Caesar III (Impressions Games, 1998).",
+   "license": "AGPL-3.0 (moteur)",
+   "homepage": "https://flathub.org/apps/com.github.bvschaik.julius",
+   "source": {
+    "type": "flatpak",
+    "id": "com.github.bvschaik.julius"
+   },
+   "requires": "fichiers du jeu original (GOG ou Steam)"
+  },
+  {
+   "id": "vcmi",
+   "title": "Heroes of Might and Magic III (VCMI)",
+   "category": "windows",
+   "genre": "Stratégie",
+   "description": "Moteur libre de Heroes of Might and Magic III (1999).",
+   "license": "GPL-2.0 (moteur)",
+   "homepage": "https://flathub.org/apps/eu.vcmi.VCMI",
+   "source": {
+    "type": "flatpak",
+    "id": "eu.vcmi.VCMI"
+   },
+   "requires": "fichiers du jeu original (GOG ou CD)"
+  },
+  {
+   "id": "minesofmoria",
+   "title": "Mines of Moria",
+   "category": "unix",
+   "genre": "Rogue-like",
+   "description": "Moria (1983), l'ancêtre des rogue-likes, dans sa version Umoria.",
+   "license": "GPL-3.0",
+   "homepage": "https://portmaster.games/detail.html?name=minesofmoria",
+   "source": {
+    "type": "portmaster",
+    "zip": "minesofmoria.zip",
+    "dir": "minesofmoria"
+   },
+   "launch": {
+    "binary": "minesofmoria",
+    "cwd": "saves"
+   }
+  },
+  {
+   "id": "sonic3air",
+   "title": "Sonic 3 A.I.R.",
+   "category": "megadrive",
+   "genre": "Plates-formes",
+   "description": "Sonic 3 & Knuckles (1994) refait en écran large.",
+   "license": "gratuit, usage non commercial (Eukaryot)",
+   "homepage": "https://flathub.org/apps/org.sonic3air.Sonic3AIR",
+   "source": {
+    "type": "flatpak",
+    "id": "org.sonic3air.Sonic3AIR"
+   },
+   "requires": "ROM Sonic 3 & Knuckles (Sega Mega Drive Classics sur Steam)"
+  },
+  {
+   "id": "abbayedesmorts",
+   "title": "L'Abbaye des Morts",
+   "category": "libres",
+   "genre": "Plates-formes",
+   "description": "Un cathare fuit les croisés dans une abbaye maudite (Locomalito, 2010).",
+   "license": "GPL-3.0",
+   "homepage": "https://portmaster.games/detail.html?name=abbayedesmorts",
+   "source": {
+    "type": "portmaster",
+    "zip": "abbayedesmorts.zip",
+    "dir": "abbayedesmorts"
+   },
+   "launch": {
+    "binary": "abbayev2",
+    "gptk": "abbayev2.gptk"
+   }
+  },
+  {
+   "id": "abes_adventure",
+   "title": "Abe's Amazing Adventure",
+   "category": "libres",
+   "genre": "Plates-formes",
+   "description": "Exploration de pyramides à clés, à la manière du Commodore Plus/4.",
+   "license": "GPL-2.0",
+   "homepage": "https://portmaster.games/detail.html?name=abes_adventure",
+   "source": {
+    "type": "portmaster",
+    "zip": "abes_adventure.zip",
+    "dir": "abes_adventure"
+   },
+   "launch": {
+    "binary": "abe",
+    "gptk": "abe.gptk"
+   }
+  },
+  {
+   "id": "blockamokremix",
+   "title": "Blockamok Remix",
+   "category": "libres",
+   "genre": "Action",
+   "description": "Évite les blocs qui foncent sur toi.",
+   "license": "MIT",
+   "homepage": "https://portmaster.games/detail.html?name=blockamokremix",
+   "source": {
+    "type": "portmaster",
+    "zip": "blockamokremix.zip",
+    "dir": "blockamokremix"
+   },
+   "launch": {
+    "binary": "blockamokremix",
+    "gptk": "blockamokremix.gptk"
+   }
+  },
+  {
+   "id": "davegnukem",
+   "title": "Dave Gnukem",
+   "category": "libres",
+   "genre": "Plates-formes",
+   "description": "Parodie libre de Duke Nukem 1.",
+   "license": "GPL-2.0",
+   "homepage": "https://portmaster.games/detail.html?name=davegnukem",
+   "source": {
+    "type": "portmaster",
+    "zip": "davegnukem.zip",
+    "dir": "davegnukem"
+   },
+   "launch": {
+    "binary": "davegnukem",
+    "gptk": "davegnukem.gptk"
+   }
+  },
+  {
+   "id": "defendguin",
+   "title": "Defendguin",
+   "category": "libres",
+   "genre": "Arcade",
+   "description": "Clone de Defender avec un manchot.",
+   "license": "ISC",
+   "homepage": "https://portmaster.games/detail.html?name=defendguin",
+   "source": {
+    "type": "portmaster",
+    "zip": "defendguin.zip",
+    "dir": "defendguin"
+   },
+   "launch": {
+    "binary": "defendguin",
+    "args": [
+     "--fullscreen"
+    ],
+    "gptk": "defendguin.gptk"
+   }
+  },
+  {
+   "id": "harmonist",
+   "title": "Harmonist",
+   "category": "libres",
+   "genre": "Rogue-like",
+   "description": "Rogue-like d'infiltration: un singe sauve ses amis de la Mine.",
+   "license": "ISC",
+   "homepage": "https://portmaster.games/detail.html?name=harmonist",
+   "source": {
+    "type": "portmaster",
+    "zip": "harmonist.zip",
+    "dir": "harmonist"
+   },
+   "launch": {
+    "binary": "harmonist",
+    "args": [
+     "-F"
+    ],
+    "gptk": "harmonist.gptk"
+   }
+  },
+  {
+   "id": "shamogu",
+   "title": "Shamogu",
+   "category": "libres",
+   "genre": "Rogue-like",
+   "description": "Rogue-like tactique: un chaman et ses esprits totems.",
+   "license": "ISC",
+   "homepage": "https://portmaster.games/detail.html?name=shamogu",
+   "source": {
+    "type": "portmaster",
+    "zip": "shamogu.zip",
+    "dir": "shamogu"
+   },
+   "launch": {
+    "binary": "shamogu",
+    "args": [
+     "-F"
+    ],
+    "gptk": "shamogu.gptk"
+   }
+  },
+  {
+   "id": "miceamaze",
+   "title": "MiceAmaze",
+   "category": "libres",
+   "genre": "Réflexion",
+   "description": "Guide les souris vers ta maison avec des flèches, gare aux serpents.",
+   "license": "BSD-3-Clause",
+   "homepage": "https://portmaster.games/detail.html?name=miceamaze",
+   "source": {
+    "type": "portmaster",
+    "zip": "miceamaze.zip",
+    "dir": "miceamaze"
+   },
+   "launch": {
+    "binary": "miceamaze",
+    "args": [
+     "-f"
+    ],
+    "gptk": "miceamaze2.gptk"
+   }
+  },
+  {
+   "id": "minesector",
+   "title": "MineSector",
+   "category": "libres",
+   "genre": "Réflexion",
+   "description": "Démineur revisité.",
+   "license": "MIT",
+   "homepage": "https://portmaster.games/detail.html?name=minesector",
+   "source": {
+    "type": "portmaster",
+    "zip": "minesector.zip",
+    "dir": "minesector"
+   },
+   "launch": {
+    "binary": "minesector",
+    "gptk": "minesector.gptk"
+   }
+  },
+  {
+   "id": "openmrac",
+   "title": "OpenMRac",
+   "category": "libres",
+   "genre": "Course",
+   "description": "Course automobile en 3D vue de dessus.",
+   "license": "BSD-2-Clause",
+   "homepage": "https://portmaster.games/detail.html?name=openmrac",
+   "source": {
+    "type": "portmaster",
+    "zip": "openmrac.zip",
+    "dir": "openmrac"
+   },
+   "launch": {
+    "binary": "openmrac-es2",
+    "args": [
+     "./openmrac.dat",
+     "--skip-settings"
+    ],
+    "gptk": "openmrac.gptk"
+   }
+  },
+  {
+   "id": "rlone",
+   "title": "Rlone: A Rogue Clone",
+   "category": "libres",
+   "genre": "Rogue-like",
+   "description": "Clone de Rogue.",
+   "license": "GPL-3.0 (code), CC BY-SA 3.0 et CC0 (sons et images)",
+   "homepage": "https://portmaster.games/detail.html?name=rlone",
+   "source": {
+    "type": "portmaster",
+    "zip": "rlone.zip",
+    "dir": "rlone"
+   },
+   "launch": {
+    "binary": "rlone",
+    "gptk": "rlone.gptk"
+   }
+  },
+  {
+   "id": "scavenger",
+   "title": "Scavenger",
+   "category": "libres",
+   "genre": "Réflexion",
+   "description": "Jeu à la Lode Runner, 196 tableaux.",
+   "license": "GPL-1.0",
+   "homepage": "https://portmaster.games/detail.html?name=scavenger",
+   "source": {
+    "type": "portmaster",
+    "zip": "scavenger.zip",
+    "dir": "scavenger"
+   },
+   "launch": {
+    "binary": "sdlscav",
+    "gptk": "sdlscav.gptk"
+   }
+  },
+  {
+   "id": "sip2",
+   "title": "Space Invaders Part 2",
+   "category": "libres",
+   "genre": "Shoot'em up",
+   "description": "Hommage à Space Invaders Part II.",
+   "license": "MIT",
+   "homepage": "https://portmaster.games/detail.html?name=sip2",
+   "source": {
+    "type": "portmaster",
+    "zip": "sip2.zip",
+    "dir": "sip2"
+   },
+   "launch": {
+    "binary": "si",
+    "gptk": "si.gptk"
+   }
+  },
+  {
+   "id": "sudokul",
+   "title": "SuDokuL",
+   "category": "libres",
+   "genre": "Réflexion",
+   "description": "Sudoku.",
+   "license": "MIT",
+   "homepage": "https://portmaster.games/detail.html?name=sudokul",
+   "source": {
+    "type": "portmaster",
+    "zip": "sudokul.zip",
+    "dir": "sudokul"
+   },
+   "launch": {
+    "binary": "sdkl"
+   }
+  },
+  {
+   "id": "trogdorrb",
+   "title": "Trogdor Reburninated",
+   "category": "libres",
+   "genre": "Action",
+   "description": "Recréation du Trogdor de Homestar Runner par un fan.",
+   "license": "MIT (code); jeu original © Videlectrix",
+   "homepage": "https://portmaster.games/detail.html?name=trogdorrb",
+   "source": {
+    "type": "portmaster",
+    "zip": "trogdorrb.zip",
+    "dir": "trogdorrb"
+   },
+   "launch": {
+    "binary": "tdrb",
+    "gptk": "tdrb.gptk"
+   }
+  },
+  {
+   "id": "supertux",
+   "title": "SuperTux",
+   "category": "libres",
+   "genre": "Plates-formes",
+   "description": "Plates-formes en 2D avec Tux, la mascotte de Linux.",
+   "license": "GPL-3.0",
+   "homepage": "https://flathub.org/apps/org.supertuxproject.SuperTux",
+   "source": {
+    "type": "flatpak",
+    "id": "org.supertuxproject.SuperTux"
+   }
+  },
+  {
+   "id": "neverball",
+   "title": "Neverball",
+   "category": "libres",
+   "genre": "Adresse",
+   "description": "Incline le plateau pour guider la bille.",
+   "license": "GPL-2.0",
+   "homepage": "https://flathub.org/apps/org.neverball.Neverball",
+   "source": {
+    "type": "flatpak",
+    "id": "org.neverball.Neverball"
+   }
+  },
+  {
+   "id": "srb2",
+   "title": "Sonic Robo Blast 2",
+   "category": "libres",
+   "genre": "Plates-formes",
+   "description": "Jeu de fans Sonic en 3D sur un moteur Doom.",
+   "license": "GPL-2.0",
+   "homepage": "https://flathub.org/apps/org.srb2.SRB2",
+   "source": {
+    "type": "flatpak",
+    "id": "org.srb2.SRB2"
+   }
+  },
+  {
+   "id": "srb2kart",
+   "title": "SRB2Kart",
+   "category": "libres",
+   "genre": "Course",
+   "description": "Karting de fans Sonic.",
+   "license": "GPL-2.0",
+   "homepage": "https://flathub.org/apps/org.srb2.SRB2Kart",
+   "source": {
+    "type": "flatpak",
+    "id": "org.srb2.SRB2Kart"
+   }
+  },
+  {
+   "id": "mindustry",
+   "title": "Mindustry",
+   "category": "libres",
+   "genre": "Stratégie",
+   "description": "Tower defense et chaînes de production.",
+   "license": "GPL-3.0",
+   "homepage": "https://flathub.org/apps/com.github.Anuken.Mindustry",
+   "source": {
+    "type": "flatpak",
+    "id": "com.github.Anuken.Mindustry"
+   }
+  },
+  {
+   "id": "chromium-bsu",
+   "title": "Chromium B.S.U.",
+   "category": "libres",
+   "genre": "Shoot'em up",
+   "description": "Shoot'em up vertical en 3D.",
+   "license": "Clarified Artistic License",
+   "homepage": "https://flathub.org/apps/net.sourceforge.chromium-bsu",
+   "source": {
+    "type": "flatpak",
+    "id": "net.sourceforge.chromium-bsu"
+   }
+  }
+ ]
+}
