@@ -39,3 +39,18 @@ octobre 2026) recense des jeux jouables dans un navigateur. Il a servi de liste 
 ## Flathub
 
 Identifiants vérifiés sur `github.com/flathub/<id>` (dépôt de construction de l'application) le 18 octobre 2026.
+
+Ajouts du 18 octobre 2026 (Flathub, dépôts de construction actifs, aucun marqué « end-of-life »):
+
+- Macintosh: les jeux Pangea Software remis en état par Iliyas Jorio (Nanosaur 1 et 2, Bugdom 1 et 2, Otto Matic,
+  Mighty Mike), CC BY-NC-SA 4.0.
+- Moteurs de jeux anciens (fichiers du jeu original à fournir): OpenRA (données de C&C téléchargées par OpenRA,
+  rendues gratuites par EA), CorsixTH, Return to the Roots, Chocolate Doom, EDuke32 et Raze (licence Build, non
+  commerciale), Augustus, OpenRCT2, JA2 Stracciatella (licence SFI, non commerciale), Yamagi Quake II, iortcw,
+  OpenMW, doukutsu-rs.
+- Jeux libres: SuperTuxKart, Extreme Tux Racer, Speed Dreams, Hedgewars, Wesnoth, 0 A.D., Flare, Shattered Pixel
+  Dungeon, Frozen Bubble, Taisei, AstroMenace, Open Surge, Teeworlds, DDNet, Xonotic, OpenArena, Red Eclipse,
+  Sauerbraten, Endless Sky, Naev, Luanti, Veloren, Cataclysm: DDA. Ceux qui demandent clavier et souris le disent
+  dans leur description.
+- Écartés: Pingus, Tuxemon et l'ancien OpenArena (fin de vie sur Flathub), Freeciv, Warzone 2100 et MegaGlest
+  (dépôt Flathub inactif depuis plus d'un an), Space Cadet Pinball (données Microsoft téléchargées par le paquet).

@@ -208,6 +208,89 @@
    "requires": "fichiers WAD du jeu (DOOM.WAD, DOOM2.WAD...) ou un jeu libre comme Freedoom"
   },
   {
+   "id": "openra",
+   "title": "Command & Conquer (OpenRA)",
+   "category": "pc-dos",
+   "genre": "Stratégie",
+   "description": "Command & Conquer, Red Alert et Dune 2000 sur un moteur libre; les données des jeux, rendus gratuits par EA, sont téléchargées au premier lancement.",
+   "license": "GPL-3.0 (moteur)",
+   "homepage": "https://flathub.org/apps/net.openra.OpenRA",
+   "source": {
+    "type": "flatpak",
+    "id": "net.openra.OpenRA"
+   }
+  },
+  {
+   "id": "corsixth",
+   "title": "Theme Hospital (CorsixTH)",
+   "category": "pc-dos",
+   "genre": "Gestion",
+   "description": "Moteur libre de Theme Hospital (Bullfrog, 1997).",
+   "license": "MIT (moteur)",
+   "homepage": "https://flathub.org/apps/com.corsixth.corsixth",
+   "source": {
+    "type": "flatpak",
+    "id": "com.corsixth.corsixth"
+   },
+   "requires": "fichiers du jeu original (GOG ou CD)"
+  },
+  {
+   "id": "rttr",
+   "title": "The Settlers II (Return to the Roots)",
+   "category": "pc-dos",
+   "genre": "Stratégie",
+   "description": "Moteur libre de The Settlers II (Blue Byte, 1996).",
+   "license": "GPL-2.0-or-later (moteur)",
+   "homepage": "https://flathub.org/apps/info.rttr.Return-To-The-Roots",
+   "source": {
+    "type": "flatpak",
+    "id": "info.rttr.Return-To-The-Roots"
+   },
+   "requires": "fichiers du jeu original (GOG ou CD)"
+  },
+  {
+   "id": "chocolate-doom",
+   "title": "Doom (Chocolate Doom)",
+   "category": "pc-dos",
+   "genre": "FPS",
+   "description": "Doom tel qu'en 1993, sans retouche.",
+   "license": "GPL-2.0-or-later (moteur)",
+   "homepage": "https://flathub.org/apps/org.chocolate_doom.ChocolateDoom",
+   "source": {
+    "type": "flatpak",
+    "id": "org.chocolate_doom.ChocolateDoom"
+   },
+   "requires": "fichiers WAD du jeu (DOOM.WAD, DOOM2.WAD...) ou Freedoom"
+  },
+  {
+   "id": "eduke32",
+   "title": "Duke Nukem 3D (EDuke32)",
+   "category": "pc-dos",
+   "genre": "FPS",
+   "description": "Moteur de Duke Nukem 3D (3D Realms, 1996).",
+   "license": "GPL-2.0 et licence Build (moteur, usage non commercial)",
+   "homepage": "https://flathub.org/apps/com.eduke32.EDuke32",
+   "source": {
+    "type": "flatpak",
+    "id": "com.eduke32.EDuke32"
+   },
+   "requires": "fichiers du jeu (DUKE3D.GRP)"
+  },
+  {
+   "id": "raze",
+   "title": "Blood, Shadow Warrior, Redneck Rampage (Raze)",
+   "category": "pc-dos",
+   "genre": "FPS",
+   "description": "Moteur des jeux Build: Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage, PowerSlave.",
+   "license": "GPL et licence Build (moteur, usage non commercial)",
+   "homepage": "https://flathub.org/apps/org.zdoom.Raze",
+   "source": {
+    "type": "flatpak",
+    "id": "org.zdoom.Raze"
+   },
+   "requires": "fichiers des jeux originaux (GOG ou Steam)"
+  },
+  {
    "id": "openggs",
    "title": "Open Great Giana Sisters",
    "category": "amiga",
@@ -279,6 +362,84 @@
    }
   },
   {
+   "id": "nanosaur",
+   "title": "Nanosaur",
+   "category": "macintosh",
+   "genre": "Action",
+   "description": "Un dinosaure du futur sauve les œufs de son espèce (Pangea Software, 1998).",
+   "license": "CC BY-NC-SA 4.0",
+   "homepage": "https://flathub.org/apps/io.jor.nanosaur",
+   "source": {
+    "type": "flatpak",
+    "id": "io.jor.nanosaur"
+   }
+  },
+  {
+   "id": "nanosaur2",
+   "title": "Nanosaur 2",
+   "category": "macintosh",
+   "genre": "Action",
+   "description": "Un ptérodactyle armé contre les voleurs d'œufs (Pangea Software, 2004).",
+   "license": "CC BY-NC-SA 4.0",
+   "homepage": "https://flathub.org/apps/io.jor.nanosaur2",
+   "source": {
+    "type": "flatpak",
+    "id": "io.jor.nanosaur2"
+   }
+  },
+  {
+   "id": "bugdom",
+   "title": "Bugdom",
+   "category": "macintosh",
+   "genre": "Plates-formes",
+   "description": "Rollie le cloporte libère le royaume des insectes (Pangea Software, 1999).",
+   "license": "CC BY-NC-SA 4.0",
+   "homepage": "https://flathub.org/apps/io.jor.bugdom",
+   "source": {
+    "type": "flatpak",
+    "id": "io.jor.bugdom"
+   }
+  },
+  {
+   "id": "bugdom2",
+   "title": "Bugdom 2",
+   "category": "macintosh",
+   "genre": "Plates-formes",
+   "description": "Skip la sauterelle court après son sac à dos volé (Pangea Software, 2002).",
+   "license": "CC BY-NC-SA 4.0",
+   "homepage": "https://flathub.org/apps/io.jor.bugdom2",
+   "source": {
+    "type": "flatpak",
+    "id": "io.jor.bugdom2"
+   }
+  },
+  {
+   "id": "ottomatic",
+   "title": "Otto Matic",
+   "category": "macintosh",
+   "genre": "Plates-formes",
+   "description": "Un robot sauve les humains d'une invasion martienne (Pangea Software, 2001).",
+   "license": "CC BY-NC-SA 4.0",
+   "homepage": "https://flathub.org/apps/io.jor.ottomatic",
+   "source": {
+    "type": "flatpak",
+    "id": "io.jor.ottomatic"
+   }
+  },
+  {
+   "id": "mightymike",
+   "title": "Mighty Mike",
+   "category": "macintosh",
+   "genre": "Action",
+   "description": "Action vue de dessus dans un magasin de jouets (Pangea Software, 1995).",
+   "license": "CC BY-NC-SA 4.0",
+   "homepage": "https://flathub.org/apps/io.jor.mightymike",
+   "source": {
+    "type": "flatpak",
+    "id": "io.jor.mightymike"
+   }
+  },
+  {
    "id": "julius",
    "title": "Caesar III (Julius)",
    "category": "windows",
@@ -305,6 +466,104 @@
     "id": "eu.vcmi.VCMI"
    },
    "requires": "fichiers du jeu original (GOG ou CD)"
+  },
+  {
+   "id": "augustus",
+   "title": "Caesar III (Augustus)",
+   "category": "windows",
+   "genre": "Gestion",
+   "description": "Caesar III amélioré (fork de Julius, nouvelles fonctions).",
+   "license": "AGPL-3.0 (moteur)",
+   "homepage": "https://flathub.org/apps/com.github.keriew.augustus",
+   "source": {
+    "type": "flatpak",
+    "id": "com.github.keriew.augustus"
+   },
+   "requires": "fichiers du jeu original (GOG ou Steam)"
+  },
+  {
+   "id": "openrct2",
+   "title": "RollerCoaster Tycoon 2 (OpenRCT2)",
+   "category": "windows",
+   "genre": "Gestion",
+   "description": "Moteur libre de RollerCoaster Tycoon 2 (2002).",
+   "license": "GPL-3.0 (moteur)",
+   "homepage": "https://flathub.org/apps/io.openrct2.OpenRCT2",
+   "source": {
+    "type": "flatpak",
+    "id": "io.openrct2.OpenRCT2"
+   },
+   "requires": "fichiers de RollerCoaster Tycoon 2 (GOG ou Steam)"
+  },
+  {
+   "id": "ja2-stracciatella",
+   "title": "Jagged Alliance 2 (Stracciatella)",
+   "category": "windows",
+   "genre": "Stratégie",
+   "description": "Moteur de Jagged Alliance 2 (Sir-Tech, 1999).",
+   "license": "licence SFI du code source (usage non commercial)",
+   "homepage": "https://flathub.org/apps/io.github.ja2_stracciatella.JA2-Stracciatella",
+   "source": {
+    "type": "flatpak",
+    "id": "io.github.ja2_stracciatella.JA2-Stracciatella"
+   },
+   "requires": "fichiers du jeu original (GOG ou Steam)"
+  },
+  {
+   "id": "yamagiq2",
+   "title": "Quake II (Yamagi)",
+   "category": "windows",
+   "genre": "FPS",
+   "description": "Quake II (id Software, 1997) sur un moteur fidèle à l'original.",
+   "license": "GPL-2.0 (moteur)",
+   "homepage": "https://flathub.org/apps/org.yamagi.YamagiQ2",
+   "source": {
+    "type": "flatpak",
+    "id": "org.yamagi.YamagiQ2"
+   },
+   "requires": "fichiers du jeu (dossier baseq2, GOG ou Steam)"
+  },
+  {
+   "id": "iortcw",
+   "title": "Return to Castle Wolfenstein (iortcw)",
+   "category": "windows",
+   "genre": "FPS",
+   "description": "Moteur de Return to Castle Wolfenstein (2001).",
+   "license": "GPL-3.0 (moteur)",
+   "homepage": "https://flathub.org/apps/com.github.iortcw.iortcw",
+   "source": {
+    "type": "flatpak",
+    "id": "com.github.iortcw.iortcw"
+   },
+   "requires": "fichiers du jeu (GOG ou Steam)"
+  },
+  {
+   "id": "openmw",
+   "title": "Morrowind (OpenMW)",
+   "category": "windows",
+   "genre": "RPG",
+   "description": "Moteur libre de The Elder Scrolls III: Morrowind (2002).",
+   "license": "GPL-3.0 (moteur)",
+   "homepage": "https://flathub.org/apps/org.openmw.OpenMW",
+   "source": {
+    "type": "flatpak",
+    "id": "org.openmw.OpenMW"
+   },
+   "requires": "fichiers du jeu (Data Files, GOG ou Steam)"
+  },
+  {
+   "id": "doukutsu-rs",
+   "title": "Cave Story (doukutsu-rs)",
+   "category": "windows",
+   "genre": "Plates-formes",
+   "description": "Moteur libre de Cave Story (Studio Pixel, 2004).",
+   "license": "MIT (moteur)",
+   "homepage": "https://flathub.org/apps/io.github.doukutsu_rs.doukutsu-rs",
+   "source": {
+    "type": "flatpak",
+    "id": "io.github.doukutsu_rs.doukutsu-rs"
+   },
+   "requires": "données de Cave Story (version freeware de Studio Pixel)"
   },
   {
    "id": "minesofmoria",
@@ -699,6 +958,305 @@
    "source": {
     "type": "flatpak",
     "id": "net.sourceforge.chromium-bsu"
+   }
+  },
+  {
+   "id": "supertuxkart",
+   "title": "SuperTuxKart",
+   "category": "libres",
+   "genre": "Course",
+   "description": "Karting avec Tux et les mascottes du logiciel libre.",
+   "license": "GPL-3.0",
+   "homepage": "https://flathub.org/apps/net.supertuxkart.SuperTuxKart",
+   "source": {
+    "type": "flatpak",
+    "id": "net.supertuxkart.SuperTuxKart"
+   }
+  },
+  {
+   "id": "extremetuxracer",
+   "title": "Extreme Tux Racer",
+   "category": "libres",
+   "genre": "Course",
+   "description": "Tux dévale les pentes enneigées sur le ventre.",
+   "license": "GPL-2.0-or-later",
+   "homepage": "https://flathub.org/apps/net.sourceforge.ExtremeTuxRacer",
+   "source": {
+    "type": "flatpak",
+    "id": "net.sourceforge.ExtremeTuxRacer"
+   }
+  },
+  {
+   "id": "speed-dreams",
+   "title": "Speed Dreams",
+   "category": "libres",
+   "genre": "Course",
+   "description": "Simulation de course automobile.",
+   "license": "GPL-2.0-or-later",
+   "homepage": "https://flathub.org/apps/org.speed_dreams.SpeedDreams",
+   "source": {
+    "type": "flatpak",
+    "id": "org.speed_dreams.SpeedDreams"
+   }
+  },
+  {
+   "id": "hedgewars",
+   "title": "Hedgewars",
+   "category": "libres",
+   "genre": "Stratégie",
+   "description": "Combats de hérissons au tour par tour, à la Worms.",
+   "license": "GPL-2.0",
+   "homepage": "https://flathub.org/apps/org.hedgewars.Hedgewars",
+   "source": {
+    "type": "flatpak",
+    "id": "org.hedgewars.Hedgewars"
+   }
+  },
+  {
+   "id": "wesnoth",
+   "title": "La Bataille pour Wesnoth",
+   "category": "libres",
+   "genre": "Stratégie",
+   "description": "Stratégie au tour par tour dans un monde de fantasy. Se joue au clavier et à la souris.",
+   "license": "GPL-2.0-or-later",
+   "homepage": "https://flathub.org/apps/org.wesnoth.Wesnoth",
+   "source": {
+    "type": "flatpak",
+    "id": "org.wesnoth.Wesnoth"
+   }
+  },
+  {
+   "id": "0ad",
+   "title": "0 A.D.",
+   "category": "libres",
+   "genre": "Stratégie",
+   "description": "Stratégie en temps réel dans l'Antiquité. Se joue au clavier et à la souris.",
+   "license": "GPL-2.0-or-later (code), CC BY-SA 3.0 (données)",
+   "homepage": "https://flathub.org/apps/com.play0ad.zeroad",
+   "source": {
+    "type": "flatpak",
+    "id": "com.play0ad.zeroad"
+   }
+  },
+  {
+   "id": "flare",
+   "title": "Flare",
+   "category": "libres",
+   "genre": "RPG",
+   "description": "Action-RPG à la Diablo.",
+   "license": "GPL-3.0 (moteur), CC BY-SA 3.0 (données)",
+   "homepage": "https://flathub.org/apps/org.flarerpg.Flare",
+   "source": {
+    "type": "flatpak",
+    "id": "org.flarerpg.Flare"
+   }
+  },
+  {
+   "id": "shatteredpd",
+   "title": "Shattered Pixel Dungeon",
+   "category": "libres",
+   "genre": "Rogue-like",
+   "description": "Rogue-like en pixel art.",
+   "license": "GPL-3.0",
+   "homepage": "https://flathub.org/apps/com.shatteredpixel.shatteredpixeldungeon",
+   "source": {
+    "type": "flatpak",
+    "id": "com.shatteredpixel.shatteredpixeldungeon"
+   }
+  },
+  {
+   "id": "frozen-bubble",
+   "title": "Frozen Bubble",
+   "category": "libres",
+   "genre": "Réflexion",
+   "description": "Lance des bulles et fais-les éclater par trois.",
+   "license": "GPL-2.0",
+   "homepage": "https://flathub.org/apps/org.frozen_bubble.frozen-bubble",
+   "source": {
+    "type": "flatpak",
+    "id": "org.frozen_bubble.frozen-bubble"
+   }
+  },
+  {
+   "id": "taisei",
+   "title": "Taisei",
+   "category": "libres",
+   "genre": "Shoot'em up",
+   "description": "Shoot'em up à la Touhou.",
+   "license": "MIT (code), licences libres variées (données)",
+   "homepage": "https://flathub.org/apps/org.taisei_project.Taisei",
+   "source": {
+    "type": "flatpak",
+    "id": "org.taisei_project.Taisei"
+   }
+  },
+  {
+   "id": "astromenace",
+   "title": "AstroMenace",
+   "category": "libres",
+   "genre": "Shoot'em up",
+   "description": "Shoot'em up spatial en 3D.",
+   "license": "GPL-3.0",
+   "homepage": "https://flathub.org/apps/com.viewizard.AstroMenace",
+   "source": {
+    "type": "flatpak",
+    "id": "com.viewizard.AstroMenace"
+   }
+  },
+  {
+   "id": "opensurge",
+   "title": "Open Surge",
+   "category": "libres",
+   "genre": "Plates-formes",
+   "description": "Plates-formes rapide dans l'esprit des Sonic 16 bits.",
+   "license": "GPL-3.0",
+   "homepage": "https://flathub.org/apps/org.opensurge2d.OpenSurge",
+   "source": {
+    "type": "flatpak",
+    "id": "org.opensurge2d.OpenSurge"
+   }
+  },
+  {
+   "id": "teeworlds",
+   "title": "Teeworlds",
+   "category": "libres",
+   "genre": "Action",
+   "description": "Action en 2D multijoueur.",
+   "license": "Zlib (code), CC BY-SA 3.0 (données)",
+   "homepage": "https://flathub.org/apps/com.teeworlds.Teeworlds",
+   "source": {
+    "type": "flatpak",
+    "id": "com.teeworlds.Teeworlds"
+   }
+  },
+  {
+   "id": "ddnet",
+   "title": "DDraceNetwork",
+   "category": "libres",
+   "genre": "Plates-formes",
+   "description": "Course d'obstacles coopérative, d'après Teeworlds.",
+   "license": "Zlib",
+   "homepage": "https://flathub.org/apps/tw.ddnet.ddnet",
+   "source": {
+    "type": "flatpak",
+    "id": "tw.ddnet.ddnet"
+   }
+  },
+  {
+   "id": "xonotic",
+   "title": "Xonotic",
+   "category": "libres",
+   "genre": "FPS",
+   "description": "FPS d'arène rapide.",
+   "license": "GPL-3.0-or-later",
+   "homepage": "https://flathub.org/apps/org.xonotic.Xonotic",
+   "source": {
+    "type": "flatpak",
+    "id": "org.xonotic.Xonotic"
+   }
+  },
+  {
+   "id": "openarena",
+   "title": "OpenArena",
+   "category": "libres",
+   "genre": "FPS",
+   "description": "FPS d'arène dans l'esprit de Quake III.",
+   "license": "GPL-2.0-or-later",
+   "homepage": "https://flathub.org/apps/io.github.ec_.Quake3e.OpenArena",
+   "source": {
+    "type": "flatpak",
+    "id": "io.github.ec_.Quake3e.OpenArena"
+   }
+  },
+  {
+   "id": "redeclipse",
+   "title": "Red Eclipse",
+   "category": "libres",
+   "genre": "FPS",
+   "description": "FPS d'arène avec parkour.",
+   "license": "Zlib (code), CC BY-SA 3.0 (données)",
+   "homepage": "https://flathub.org/apps/net.redeclipse.RedEclipse",
+   "source": {
+    "type": "flatpak",
+    "id": "net.redeclipse.RedEclipse"
+   }
+  },
+  {
+   "id": "sauerbraten",
+   "title": "Cube 2: Sauerbraten",
+   "category": "libres",
+   "genre": "FPS",
+   "description": "FPS rapide et éditeur de cartes intégré.",
+   "license": "Zlib",
+   "homepage": "https://flathub.org/apps/org.sauerbraten.Sauerbraten",
+   "source": {
+    "type": "flatpak",
+    "id": "org.sauerbraten.Sauerbraten"
+   }
+  },
+  {
+   "id": "endless-sky",
+   "title": "Endless Sky",
+   "category": "libres",
+   "genre": "Simulation",
+   "description": "Commerce et combats spatiaux à la Escape Velocity. Se joue au clavier et à la souris.",
+   "license": "GPL-3.0",
+   "homepage": "https://flathub.org/apps/io.github.endless_sky.endless_sky",
+   "source": {
+    "type": "flatpak",
+    "id": "io.github.endless_sky.endless_sky"
+   }
+  },
+  {
+   "id": "naev",
+   "title": "Naev",
+   "category": "libres",
+   "genre": "Simulation",
+   "description": "Exploration spatiale, commerce et combats. Se joue au clavier et à la souris.",
+   "license": "GPL-3.0",
+   "homepage": "https://flathub.org/apps/org.naev.Naev",
+   "source": {
+    "type": "flatpak",
+    "id": "org.naev.Naev"
+   }
+  },
+  {
+   "id": "luanti",
+   "title": "Luanti",
+   "category": "libres",
+   "genre": "Bac à sable",
+   "description": "Jeu de construction en cubes (ex-Minetest).",
+   "license": "LGPL-2.1-or-later (moteur)",
+   "homepage": "https://flathub.org/apps/org.luanti.luanti",
+   "source": {
+    "type": "flatpak",
+    "id": "org.luanti.luanti"
+   }
+  },
+  {
+   "id": "veloren",
+   "title": "Veloren",
+   "category": "libres",
+   "genre": "RPG",
+   "description": "RPG en monde ouvert multijoueur en voxels. Se joue au clavier et à la souris.",
+   "license": "GPL-3.0",
+   "homepage": "https://flathub.org/apps/net.veloren.veloren",
+   "source": {
+    "type": "flatpak",
+    "id": "net.veloren.veloren"
+   }
+  },
+  {
+   "id": "cataclysm-dda",
+   "title": "Cataclysm: Dark Days Ahead",
+   "category": "libres",
+   "genre": "Rogue-like",
+   "description": "Survie post-apocalyptique au tour par tour. Se joue au clavier et à la souris.",
+   "license": "CC BY-SA 3.0",
+   "homepage": "https://flathub.org/apps/org.cataclysmdda.CataclysmDDA",
+   "source": {
+    "type": "flatpak",
+    "id": "org.cataclysmdda.CataclysmDDA"
    }
   }
  ]
