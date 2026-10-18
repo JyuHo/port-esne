@@ -4,8 +4,11 @@ Catalogue des **ports** proposés au téléchargement par [ES-NE](https://github
 **MISES À JOUR ET TÉLÉCHARGEMENTS > TÉLÉCHARGEMENT DE CONTENU** d'EmulationStation.
 
 Un port est un jeu qui tourne nativement sous Linux: remake libre, moteur réécrit d'un jeu ancien ou jeu libre.
-Les jeux sont classés par machine d'origine (PC (DOS), Amiga, Macintosh, Windows, Unix, Mega Drive) et une
-catégorie **Jeux libres** regroupe les créations originales. Pas de démo ni de version shareware.
+Les jeux sont classés par machine d'origine (PC (DOS), Amiga, Macintosh, Unix) et une catégorie **Jeux libres**
+regroupe les créations originales.
+
+Règle du catalogue: **on installe et on joue, sans rien fournir**. Pas de jeu qui demande les fichiers du jeu
+original, une ROM ou un dump, rien dont la redistribution est douteuse, pas de démo ni de version shareware.
 
 ## Ce que contient le dépôt
 
@@ -25,8 +28,7 @@ catégorie **Jeux libres** regroupe les créations originales. Pas de démo ni d
   pas utilisé); les jeux qui n'acceptent que le clavier se jouent à la manette grâce à `esne-padkeys` et au fichier
   `.gptk` du port.
 - **Flathub**: application installée pour l'utilisateur (`flatpak install --user flathub ...`) et lancée par
-  `flatpak run`. Les moteurs de jeux anciens (fheroes2, Julius, VCMI, RigelEngine...) demandent les fichiers du jeu
-  original, que le joueur doit posséder: c'est indiqué dans la description du jeu.
+  `flatpak run`.
 
 ## Format de `catalog.json`
 
@@ -50,7 +52,7 @@ catégorie **Jeux libres** regroupe les créations originales. Pas de démo ni d
 }
 ```
 
-- `requires` (facultatif): ce que le joueur doit fournir, par exemple les fichiers du jeu original.
+- `requires` (facultatif, inutilisé par la règle actuelle): ce que le joueur devrait fournir; ES-NE l'affiche dans la description.
 - `source.type`: `portmaster` (`zip`, `dir`) ou `flatpak` (`id`).
 - `launch` (PortMaster seulement): `binary` reçoit le suffixe de l'architecture (`opentyrian.x86_64`), `args`,
   `cwd` (sous-dossier de lancement), `env` (`$GAMEDIR` = dossier du jeu), `gptk` (correspondance manette -> clavier).
@@ -58,8 +60,8 @@ catégorie **Jeux libres** regroupe les créations originales. Pas de démo ni d
 
 ## Ajouter un jeu
 
-1. Vérifier la licence (fichiers `LICENSE`/`COPYING` de l'archive, page du projet). Pas de démo, pas de shareware,
-   pas de jeu commercial redistribué sans autorisation.
+1. Vérifier la licence (fichiers `LICENSE`/`COPYING` de l'archive, page du projet) et que le jeu se joue sans rien
+   fournir. Pas de démo, pas de shareware, pas de jeu commercial redistribué sans autorisation.
 2. Ajouter une ligne dans `tools/catalog_source.py`.
 3. `python3 tools/build_catalog.py && python3 tools/check_portmaster.py --deep`
 4. Committer `catalog.json` et `LICENSES.md` avec la source.

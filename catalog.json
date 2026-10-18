@@ -23,10 +23,6 @@
    "name": "Unix"
   },
   {
-   "id": "megadrive",
-   "name": "Mega Drive"
-  },
-  {
    "id": "libres",
    "name": "Jeux libres"
   }
@@ -69,24 +65,6 @@
      "--data=data"
     ],
     "gptk": "opentyrian.gptk"
-   }
-  },
-  {
-   "id": "sdlpop",
-   "title": "Prince of Persia (SDLPoP)",
-   "category": "pc-dos",
-   "genre": "Plates-formes",
-   "description": "Le premier Prince of Persia (1990) sur un moteur libre.",
-   "license": "GPL-3.0 (moteur SDLPoP); données du jeu © Jordan Mechner / Ubisoft, fournies par PortMaster",
-   "homepage": "https://portmaster.games/detail.html?name=sdlpop",
-   "source": {
-    "type": "portmaster",
-    "zip": "sdlpop.zip",
-    "dir": "sdlpop"
-   },
-   "launch": {
-    "binary": "prince",
-    "gptk": "prince.gptk"
    }
   },
   {
@@ -138,76 +116,6 @@
    }
   },
   {
-   "id": "fheroes2",
-   "title": "Heroes of Might and Magic II (fheroes2)",
-   "category": "pc-dos",
-   "genre": "Stratégie",
-   "description": "Moteur libre de Heroes of Might and Magic II (1996).",
-   "license": "GPL-2.0 (moteur)",
-   "homepage": "https://flathub.org/apps/io.github.ihhub.Fheroes2",
-   "source": {
-    "type": "flatpak",
-    "id": "io.github.ihhub.Fheroes2"
-   },
-   "requires": "fichiers du jeu original (GOG ou CD)"
-  },
-  {
-   "id": "rigelengine",
-   "title": "Duke Nukem II (RigelEngine)",
-   "category": "pc-dos",
-   "genre": "Plates-formes",
-   "description": "Moteur libre de Duke Nukem II (Apogee, 1993).",
-   "license": "GPL-2.0 (moteur)",
-   "homepage": "https://flathub.org/apps/io.github.lethal_guitar.RigelEngine",
-   "source": {
-    "type": "flatpak",
-    "id": "io.github.lethal_guitar.RigelEngine"
-   },
-   "requires": "fichiers du jeu complet (GOG ou Steam)"
-  },
-  {
-   "id": "dxx-rebirth",
-   "title": "Descent (DXX-Rebirth)",
-   "category": "pc-dos",
-   "genre": "Action",
-   "description": "Moteur libre de Descent et Descent 2 (Parallax, 1995).",
-   "license": "GPL-3.0 et licence Parallax (moteur)",
-   "homepage": "https://flathub.org/apps/io.github.dxx_rebirth.DXX-Rebirth",
-   "source": {
-    "type": "flatpak",
-    "id": "io.github.dxx_rebirth.DXX-Rebirth"
-   },
-   "requires": "fichiers du jeu complet (GOG ou Steam)"
-  },
-  {
-   "id": "theforceengine",
-   "title": "Star Wars: Dark Forces (The Force Engine)",
-   "category": "pc-dos",
-   "genre": "FPS",
-   "description": "Moteur libre de Dark Forces (LucasArts, 1995).",
-   "license": "GPL-2.0 (moteur)",
-   "homepage": "https://flathub.org/apps/io.github.theforceengine.tfe",
-   "source": {
-    "type": "flatpak",
-    "id": "io.github.theforceengine.tfe"
-   },
-   "requires": "fichiers du jeu complet (GOG ou Steam)"
-  },
-  {
-   "id": "gzdoom",
-   "title": "Doom (GZDoom)",
-   "category": "pc-dos",
-   "genre": "FPS",
-   "description": "Moteur de Doom, Doom II, Heretic et Hexen.",
-   "license": "GPL-3.0 (moteur)",
-   "homepage": "https://flathub.org/apps/org.zdoom.GZDoom",
-   "source": {
-    "type": "flatpak",
-    "id": "org.zdoom.GZDoom"
-   },
-   "requires": "fichiers WAD du jeu (DOOM.WAD, DOOM2.WAD...) ou un jeu libre comme Freedoom"
-  },
-  {
    "id": "openra",
    "title": "Command & Conquer (OpenRA)",
    "category": "pc-dos",
@@ -219,76 +127,6 @@
     "type": "flatpak",
     "id": "net.openra.OpenRA"
    }
-  },
-  {
-   "id": "corsixth",
-   "title": "Theme Hospital (CorsixTH)",
-   "category": "pc-dos",
-   "genre": "Gestion",
-   "description": "Moteur libre de Theme Hospital (Bullfrog, 1997).",
-   "license": "MIT (moteur)",
-   "homepage": "https://flathub.org/apps/com.corsixth.corsixth",
-   "source": {
-    "type": "flatpak",
-    "id": "com.corsixth.corsixth"
-   },
-   "requires": "fichiers du jeu original (GOG ou CD)"
-  },
-  {
-   "id": "rttr",
-   "title": "The Settlers II (Return to the Roots)",
-   "category": "pc-dos",
-   "genre": "Stratégie",
-   "description": "Moteur libre de The Settlers II (Blue Byte, 1996).",
-   "license": "GPL-2.0-or-later (moteur)",
-   "homepage": "https://flathub.org/apps/info.rttr.Return-To-The-Roots",
-   "source": {
-    "type": "flatpak",
-    "id": "info.rttr.Return-To-The-Roots"
-   },
-   "requires": "fichiers du jeu original (GOG ou CD)"
-  },
-  {
-   "id": "chocolate-doom",
-   "title": "Doom (Chocolate Doom)",
-   "category": "pc-dos",
-   "genre": "FPS",
-   "description": "Doom tel qu'en 1993, sans retouche.",
-   "license": "GPL-2.0-or-later (moteur)",
-   "homepage": "https://flathub.org/apps/org.chocolate_doom.ChocolateDoom",
-   "source": {
-    "type": "flatpak",
-    "id": "org.chocolate_doom.ChocolateDoom"
-   },
-   "requires": "fichiers WAD du jeu (DOOM.WAD, DOOM2.WAD...) ou Freedoom"
-  },
-  {
-   "id": "eduke32",
-   "title": "Duke Nukem 3D (EDuke32)",
-   "category": "pc-dos",
-   "genre": "FPS",
-   "description": "Moteur de Duke Nukem 3D (3D Realms, 1996).",
-   "license": "GPL-2.0 et licence Build (moteur, usage non commercial)",
-   "homepage": "https://flathub.org/apps/com.eduke32.EDuke32",
-   "source": {
-    "type": "flatpak",
-    "id": "com.eduke32.EDuke32"
-   },
-   "requires": "fichiers du jeu (DUKE3D.GRP)"
-  },
-  {
-   "id": "raze",
-   "title": "Blood, Shadow Warrior, Redneck Rampage (Raze)",
-   "category": "pc-dos",
-   "genre": "FPS",
-   "description": "Moteur des jeux Build: Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage, PowerSlave.",
-   "license": "GPL et licence Build (moteur, usage non commercial)",
-   "homepage": "https://flathub.org/apps/org.zdoom.Raze",
-   "source": {
-    "type": "flatpak",
-    "id": "org.zdoom.Raze"
-   },
-   "requires": "fichiers des jeux originaux (GOG ou Steam)"
   },
   {
    "id": "openggs",
@@ -440,132 +278,6 @@
    }
   },
   {
-   "id": "julius",
-   "title": "Caesar III (Julius)",
-   "category": "windows",
-   "genre": "Gestion",
-   "description": "Moteur libre de Caesar III (Impressions Games, 1998).",
-   "license": "AGPL-3.0 (moteur)",
-   "homepage": "https://flathub.org/apps/com.github.bvschaik.julius",
-   "source": {
-    "type": "flatpak",
-    "id": "com.github.bvschaik.julius"
-   },
-   "requires": "fichiers du jeu original (GOG ou Steam)"
-  },
-  {
-   "id": "vcmi",
-   "title": "Heroes of Might and Magic III (VCMI)",
-   "category": "windows",
-   "genre": "Stratégie",
-   "description": "Moteur libre de Heroes of Might and Magic III (1999).",
-   "license": "GPL-2.0 (moteur)",
-   "homepage": "https://flathub.org/apps/eu.vcmi.VCMI",
-   "source": {
-    "type": "flatpak",
-    "id": "eu.vcmi.VCMI"
-   },
-   "requires": "fichiers du jeu original (GOG ou CD)"
-  },
-  {
-   "id": "augustus",
-   "title": "Caesar III (Augustus)",
-   "category": "windows",
-   "genre": "Gestion",
-   "description": "Caesar III amélioré (fork de Julius, nouvelles fonctions).",
-   "license": "AGPL-3.0 (moteur)",
-   "homepage": "https://flathub.org/apps/com.github.keriew.augustus",
-   "source": {
-    "type": "flatpak",
-    "id": "com.github.keriew.augustus"
-   },
-   "requires": "fichiers du jeu original (GOG ou Steam)"
-  },
-  {
-   "id": "openrct2",
-   "title": "RollerCoaster Tycoon 2 (OpenRCT2)",
-   "category": "windows",
-   "genre": "Gestion",
-   "description": "Moteur libre de RollerCoaster Tycoon 2 (2002).",
-   "license": "GPL-3.0 (moteur)",
-   "homepage": "https://flathub.org/apps/io.openrct2.OpenRCT2",
-   "source": {
-    "type": "flatpak",
-    "id": "io.openrct2.OpenRCT2"
-   },
-   "requires": "fichiers de RollerCoaster Tycoon 2 (GOG ou Steam)"
-  },
-  {
-   "id": "ja2-stracciatella",
-   "title": "Jagged Alliance 2 (Stracciatella)",
-   "category": "windows",
-   "genre": "Stratégie",
-   "description": "Moteur de Jagged Alliance 2 (Sir-Tech, 1999).",
-   "license": "licence SFI du code source (usage non commercial)",
-   "homepage": "https://flathub.org/apps/io.github.ja2_stracciatella.JA2-Stracciatella",
-   "source": {
-    "type": "flatpak",
-    "id": "io.github.ja2_stracciatella.JA2-Stracciatella"
-   },
-   "requires": "fichiers du jeu original (GOG ou Steam)"
-  },
-  {
-   "id": "yamagiq2",
-   "title": "Quake II (Yamagi)",
-   "category": "windows",
-   "genre": "FPS",
-   "description": "Quake II (id Software, 1997) sur un moteur fidèle à l'original.",
-   "license": "GPL-2.0 (moteur)",
-   "homepage": "https://flathub.org/apps/org.yamagi.YamagiQ2",
-   "source": {
-    "type": "flatpak",
-    "id": "org.yamagi.YamagiQ2"
-   },
-   "requires": "fichiers du jeu (dossier baseq2, GOG ou Steam)"
-  },
-  {
-   "id": "iortcw",
-   "title": "Return to Castle Wolfenstein (iortcw)",
-   "category": "windows",
-   "genre": "FPS",
-   "description": "Moteur de Return to Castle Wolfenstein (2001).",
-   "license": "GPL-3.0 (moteur)",
-   "homepage": "https://flathub.org/apps/com.github.iortcw.iortcw",
-   "source": {
-    "type": "flatpak",
-    "id": "com.github.iortcw.iortcw"
-   },
-   "requires": "fichiers du jeu (GOG ou Steam)"
-  },
-  {
-   "id": "openmw",
-   "title": "Morrowind (OpenMW)",
-   "category": "windows",
-   "genre": "RPG",
-   "description": "Moteur libre de The Elder Scrolls III: Morrowind (2002).",
-   "license": "GPL-3.0 (moteur)",
-   "homepage": "https://flathub.org/apps/org.openmw.OpenMW",
-   "source": {
-    "type": "flatpak",
-    "id": "org.openmw.OpenMW"
-   },
-   "requires": "fichiers du jeu (Data Files, GOG ou Steam)"
-  },
-  {
-   "id": "doukutsu-rs",
-   "title": "Cave Story (doukutsu-rs)",
-   "category": "windows",
-   "genre": "Plates-formes",
-   "description": "Moteur libre de Cave Story (Studio Pixel, 2004).",
-   "license": "MIT (moteur)",
-   "homepage": "https://flathub.org/apps/io.github.doukutsu_rs.doukutsu-rs",
-   "source": {
-    "type": "flatpak",
-    "id": "io.github.doukutsu_rs.doukutsu-rs"
-   },
-   "requires": "données de Cave Story (version freeware de Studio Pixel)"
-  },
-  {
    "id": "minesofmoria",
    "title": "Mines of Moria",
    "category": "unix",
@@ -582,20 +294,6 @@
     "binary": "minesofmoria",
     "cwd": "saves"
    }
-  },
-  {
-   "id": "sonic3air",
-   "title": "Sonic 3 A.I.R.",
-   "category": "megadrive",
-   "genre": "Plates-formes",
-   "description": "Sonic 3 & Knuckles (1994) refait en écran large.",
-   "license": "gratuit, usage non commercial (Eukaryot)",
-   "homepage": "https://flathub.org/apps/org.sonic3air.Sonic3AIR",
-   "source": {
-    "type": "flatpak",
-    "id": "org.sonic3air.Sonic3AIR"
-   },
-   "requires": "ROM Sonic 3 & Knuckles (Sega Mega Drive Classics sur Steam)"
   },
   {
    "id": "abbayedesmorts",
@@ -862,24 +560,6 @@
    },
    "launch": {
     "binary": "sdkl"
-   }
-  },
-  {
-   "id": "trogdorrb",
-   "title": "Trogdor Reburninated",
-   "category": "libres",
-   "genre": "Action",
-   "description": "Recréation du Trogdor de Homestar Runner par un fan.",
-   "license": "MIT (code); jeu original © Videlectrix",
-   "homepage": "https://portmaster.games/detail.html?name=trogdorrb",
-   "source": {
-    "type": "portmaster",
-    "zip": "trogdorrb.zip",
-    "dir": "trogdorrb"
-   },
-   "launch": {
-    "binary": "tdrb",
-    "gptk": "tdrb.gptk"
    }
   },
   {

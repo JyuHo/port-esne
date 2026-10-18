@@ -8,7 +8,8 @@ Chaque port a une ``source``:
               ``gptk`` = correspondance manette -> clavier lue par esne-padkeys)
   flatpak     application Flathub installée pour l'utilisateur (``flatpak install --user``), lancée par ``flatpak run``
 
-``requires``: ce que le joueur doit fournir (fichiers du jeu original). Aucune démo ni version shareware.
+Règle: un jeu s'installe et se joue sans rien fournir (pas de fichiers du jeu original, de ROM ni de dump), sans démo ni
+version shareware, et sa licence permet la redistribution par sa source.
 """
 
 CATEGORIES = [
@@ -17,7 +18,6 @@ CATEGORIES = [
     ("macintosh", "Macintosh"),
     ("windows", "Windows"),
     ("unix", "Unix"),
-    ("megadrive", "Mega Drive"),
     ("libres", "Jeux libres"),
 ]
 
@@ -49,9 +49,6 @@ PORTS = [
     ("opentyrian", "OpenTyrian", "pc-dos", "Shoot'em up", "Shoot'em up vertical d'Epic MegaGames (1995), version 2.1 devenue gratuite.",
      "GPL-2.0 (moteur), données Tyrian 2.1 gratuites (Epic MegaGames)", None,
      pm("opentyrian.zip", "opentyrian", args=["--data=data"], gptk="opentyrian.gptk")),
-    ("sdlpop", "Prince of Persia (SDLPoP)", "pc-dos", "Plates-formes", "Le premier Prince of Persia (1990) sur un moteur libre.",
-     "GPL-3.0 (moteur SDLPoP); données du jeu © Jordan Mechner / Ubisoft, fournies par PortMaster", None,
-     pm("sdlpop.zip", "prince", gptk="prince.gptk")),
     ("openomf", "One Must Fall 2097 (OpenOMF)", "pc-dos", "Combat", "Combat de robots géants (Diversions Entertainment, 1994), gratuit depuis 1999.",
      "MIT (moteur OpenOMF), données gratuites (Epic MegaGames)", None,
      pm("openomf.zip", "openomf", gptk="openomf.gptk",
@@ -60,28 +57,8 @@ PORTS = [
      "GPL-2.0, graphismes, sons et musiques libres (OpenGFX, OpenSFX, OpenMSX)", None, fp("org.openttd.OpenTTD")),
     ("abuse", "Abuse", "pc-dos", "Action", "Run and gun de Crack dot Com (1995), code et données rendus publics.",
      "domaine public et GPL-2.0", None, fp("com.github.Xenoveritas.abuse")),
-    ("fheroes2", "Heroes of Might and Magic II (fheroes2)", "pc-dos", "Stratégie", "Moteur libre de Heroes of Might and Magic II (1996).",
-     "GPL-2.0 (moteur)", "fichiers du jeu original (GOG ou CD)", fp("io.github.ihhub.Fheroes2")),
-    ("rigelengine", "Duke Nukem II (RigelEngine)", "pc-dos", "Plates-formes", "Moteur libre de Duke Nukem II (Apogee, 1993).",
-     "GPL-2.0 (moteur)", "fichiers du jeu complet (GOG ou Steam)", fp("io.github.lethal_guitar.RigelEngine")),
-    ("dxx-rebirth", "Descent (DXX-Rebirth)", "pc-dos", "Action", "Moteur libre de Descent et Descent 2 (Parallax, 1995).",
-     "GPL-3.0 et licence Parallax (moteur)", "fichiers du jeu complet (GOG ou Steam)", fp("io.github.dxx_rebirth.DXX-Rebirth")),
-    ("theforceengine", "Star Wars: Dark Forces (The Force Engine)", "pc-dos", "FPS", "Moteur libre de Dark Forces (LucasArts, 1995).",
-     "GPL-2.0 (moteur)", "fichiers du jeu complet (GOG ou Steam)", fp("io.github.theforceengine.tfe")),
-    ("gzdoom", "Doom (GZDoom)", "pc-dos", "FPS", "Moteur de Doom, Doom II, Heretic et Hexen.",
-     "GPL-3.0 (moteur)", "fichiers WAD du jeu (DOOM.WAD, DOOM2.WAD...) ou un jeu libre comme Freedoom", fp("org.zdoom.GZDoom")),
     ("openra", "Command & Conquer (OpenRA)", "pc-dos", "Stratégie", "Command & Conquer, Red Alert et Dune 2000 sur un moteur libre; les données des jeux, rendus gratuits par EA, sont téléchargées au premier lancement.",
      "GPL-3.0 (moteur)", None, fp("net.openra.OpenRA")),
-    ("corsixth", "Theme Hospital (CorsixTH)", "pc-dos", "Gestion", "Moteur libre de Theme Hospital (Bullfrog, 1997).",
-     "MIT (moteur)", "fichiers du jeu original (GOG ou CD)", fp("com.corsixth.corsixth")),
-    ("rttr", "The Settlers II (Return to the Roots)", "pc-dos", "Stratégie", "Moteur libre de The Settlers II (Blue Byte, 1996).",
-     "GPL-2.0-or-later (moteur)", "fichiers du jeu original (GOG ou CD)", fp("info.rttr.Return-To-The-Roots")),
-    ("chocolate-doom", "Doom (Chocolate Doom)", "pc-dos", "FPS", "Doom tel qu'en 1993, sans retouche.",
-     "GPL-2.0-or-later (moteur)", "fichiers WAD du jeu (DOOM.WAD, DOOM2.WAD...) ou Freedoom", fp("org.chocolate_doom.ChocolateDoom")),
-    ("eduke32", "Duke Nukem 3D (EDuke32)", "pc-dos", "FPS", "Moteur de Duke Nukem 3D (3D Realms, 1996).",
-     "GPL-2.0 et licence Build (moteur, usage non commercial)", "fichiers du jeu (DUKE3D.GRP)", fp("com.eduke32.EDuke32")),
-    ("raze", "Blood, Shadow Warrior, Redneck Rampage (Raze)", "pc-dos", "FPS", "Moteur des jeux Build: Duke Nukem 3D, Blood, Shadow Warrior, Redneck Rampage, PowerSlave.",
-     "GPL et licence Build (moteur, usage non commercial)", "fichiers des jeux originaux (GOG ou Steam)", fp("org.zdoom.Raze")),
     # --- Amiga
     ("openggs", "Open Great Giana Sisters", "amiga", "Plates-formes", "Remake libre de The Great Giana Sisters (1987).",
      "GPL-2.0", None, pm("openggs.zip", "openggs", gptk="openggs.gptk")),
@@ -105,31 +82,9 @@ PORTS = [
     ("mightymike", "Mighty Mike", "macintosh", "Action", "Action vue de dessus dans un magasin de jouets (Pangea Software, 1995).",
      "CC BY-NC-SA 4.0", None, fp("io.jor.mightymike")),
     # --- Windows
-    ("julius", "Caesar III (Julius)", "windows", "Gestion", "Moteur libre de Caesar III (Impressions Games, 1998).",
-     "AGPL-3.0 (moteur)", "fichiers du jeu original (GOG ou Steam)", fp("com.github.bvschaik.julius")),
-    ("vcmi", "Heroes of Might and Magic III (VCMI)", "windows", "Stratégie", "Moteur libre de Heroes of Might and Magic III (1999).",
-     "GPL-2.0 (moteur)", "fichiers du jeu original (GOG ou CD)", fp("eu.vcmi.VCMI")),
-    ("augustus", "Caesar III (Augustus)", "windows", "Gestion", "Caesar III amélioré (fork de Julius, nouvelles fonctions).",
-     "AGPL-3.0 (moteur)", "fichiers du jeu original (GOG ou Steam)", fp("com.github.keriew.augustus")),
-    ("openrct2", "RollerCoaster Tycoon 2 (OpenRCT2)", "windows", "Gestion", "Moteur libre de RollerCoaster Tycoon 2 (2002).",
-     "GPL-3.0 (moteur)", "fichiers de RollerCoaster Tycoon 2 (GOG ou Steam)", fp("io.openrct2.OpenRCT2")),
-    ("ja2-stracciatella", "Jagged Alliance 2 (Stracciatella)", "windows", "Stratégie", "Moteur de Jagged Alliance 2 (Sir-Tech, 1999).",
-     "licence SFI du code source (usage non commercial)", "fichiers du jeu original (GOG ou Steam)", fp("io.github.ja2_stracciatella.JA2-Stracciatella")),
-    ("yamagiq2", "Quake II (Yamagi)", "windows", "FPS", "Quake II (id Software, 1997) sur un moteur fidèle à l'original.",
-     "GPL-2.0 (moteur)", "fichiers du jeu (dossier baseq2, GOG ou Steam)", fp("org.yamagi.YamagiQ2")),
-    ("iortcw", "Return to Castle Wolfenstein (iortcw)", "windows", "FPS", "Moteur de Return to Castle Wolfenstein (2001).",
-     "GPL-3.0 (moteur)", "fichiers du jeu (GOG ou Steam)", fp("com.github.iortcw.iortcw")),
-    ("openmw", "Morrowind (OpenMW)", "windows", "RPG", "Moteur libre de The Elder Scrolls III: Morrowind (2002).",
-     "GPL-3.0 (moteur)", "fichiers du jeu (Data Files, GOG ou Steam)", fp("org.openmw.OpenMW")),
-    ("doukutsu-rs", "Cave Story (doukutsu-rs)", "windows", "Plates-formes", "Moteur libre de Cave Story (Studio Pixel, 2004).",
-     "MIT (moteur)", "données de Cave Story (version freeware de Studio Pixel)", fp("io.github.doukutsu_rs.doukutsu-rs")),
     # --- Unix
     ("minesofmoria", "Mines of Moria", "unix", "Rogue-like", "Moria (1983), l'ancêtre des rogue-likes, dans sa version Umoria.",
      "GPL-3.0", None, pm("minesofmoria.zip", "minesofmoria", cwd="saves")),
-    # --- Mega Drive
-    ("sonic3air", "Sonic 3 A.I.R.", "megadrive", "Plates-formes", "Sonic 3 & Knuckles (1994) refait en écran large.",
-     "gratuit, usage non commercial (Eukaryot)", "ROM Sonic 3 & Knuckles (Sega Mega Drive Classics sur Steam)",
-     fp("org.sonic3air.Sonic3AIR")),
     # --- Jeux libres
     ("abbayedesmorts", "L'Abbaye des Morts", "libres", "Plates-formes", "Un cathare fuit les croisés dans une abbaye maudite (Locomalito, 2010).",
      "GPL-3.0", None, pm("abbayedesmorts.zip", "abbayev2", gptk="abbayev2.gptk")),
@@ -158,8 +113,6 @@ PORTS = [
     ("sip2", "Space Invaders Part 2", "libres", "Shoot'em up", "Hommage à Space Invaders Part II.",
      "MIT", None, pm("sip2.zip", "si", gptk="si.gptk")),
     ("sudokul", "SuDokuL", "libres", "Réflexion", "Sudoku.", "MIT", None, pm("sudokul.zip", "sdkl")),
-    ("trogdorrb", "Trogdor Reburninated", "libres", "Action", "Recréation du Trogdor de Homestar Runner par un fan.",
-     "MIT (code); jeu original © Videlectrix", None, pm("trogdorrb.zip", "tdrb", gptk="tdrb.gptk")),
     ("supertux", "SuperTux", "libres", "Plates-formes", "Plates-formes en 2D avec Tux, la mascotte de Linux.",
      "GPL-3.0", None, fp("org.supertuxproject.SuperTux")),
     ("neverball", "Neverball", "libres", "Adresse", "Incline le plateau pour guider la bille.", "GPL-2.0", None, fp("org.neverball.Neverball")),

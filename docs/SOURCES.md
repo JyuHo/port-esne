@@ -54,3 +54,13 @@ Ajouts du 18 octobre 2026 (Flathub, dépôts de construction actifs, aucun marqu
   dans leur description.
 - Écartés: Pingus, Tuxemon et l'ancien OpenArena (fin de vie sur Flathub), Freeciv, Warzone 2100 et MegaGlest
   (dépôt Flathub inactif depuis plus d'un an), Space Cadet Pinball (données Microsoft téléchargées par le paquet).
+
+## Révision du 18 octobre 2026: rien à fournir
+
+Retirés: tous les jeux qui demandaient les fichiers du jeu original ou une ROM (fheroes2, RigelEngine, DXX-Rebirth,
+The Force Engine, GZDoom, Chocolate Doom, CorsixTH, Return to the Roots, EDuke32, Raze, Julius, Augustus, VCMI,
+OpenRCT2, JA2 Stracciatella, Yamagi Quake II, iortcw, OpenMW, doukutsu-rs, Sonic 3 A.I.R.), ainsi que deux cas
+douteux: SDLPoP (données de Prince of Persia © Jordan Mechner / Ubisoft redistribuées sans licence) et Trogdor
+Reburninated (reprise par un fan d'un jeu © Videlectrix). Gardés parce que les ayants droit ont rendu les données
+gratuites: OpenTyrian (Tyrian 2.1), OpenOMF (One Must Fall 2097), OpenRA (Command & Conquer, Red Alert), Abuse
+(domaine public). Les listes « Ajouts » ci-dessus sont donc en partie caduques.
